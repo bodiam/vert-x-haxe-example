@@ -1,0 +1,474 @@
+/home/francesco/Downloads/vert.x-2.1.5
+begin defines
+dce
+haxe3
+haxe_ver
+hxAnonCls
+hxcpp_api_level
+hxjava
+java
+java0
+java1
+java2
+java3
+java4
+java5
+java6
+java7
+java_ver
+sys
+tink_core
+tink_macro
+true
+end defines
+begin defines_data
+dce=std
+haxe3=1
+haxe_ver=3.2
+hxAnonCls=0.1.0
+hxcpp_api_level=321
+hxjava=3.2.0
+java=1
+java0=1
+java1=1
+java2=1
+java3=1
+java4=1
+java5=1
+java6=1
+java7=1
+java_ver=7
+sys=1
+tink_core=1.0.0-rc.7
+tink_macro=0.6.4
+true=1
+end defines_data
+begin modules
+M java.nio.file.DirectoryStream
+M java.net.URLConnection
+M java.lang.CloneNotSupportedException
+M java.net.SocketOption
+M org.vertx.java.core.VertxFactory
+M org.vertx.java.core.http.WebSocket
+M java.sun.util.LocaleServiceProviderPool
+M haxe.root.Std
+C haxe.root.Std
+M java.lang.Error
+M java.nio.charset.Charset
+M java.nio.channels.SelectableChannel
+M java.util.concurrent.ExecutionException
+M org.vertx.java.core.Vertx
+M org.vertx.java.core.ClientSSLSupport
+M java.nio.LongBuffer
+M java.lang.Enum
+M haxe.lang.IEquatable
+C haxe.lang.IEquatable
+M java.net.FileNameMap
+M java.util.concurrent.ExecutorService
+M org.vertx.java.core.datagram.DatagramPacket
+M java.util.concurrent.TimeoutException
+M haxe.extern.Rest
+M java.io.IOException
+M javax.net.ssl.TrustManager
+M java.util.Set
+M org.vertx.java.core.streams.DrainSupport
+M org.vertx.java.core.file.FileSystem
+M java.lang.ref.Reference
+M java.internal.Exceptions
+C haxe.lang.Exceptions
+C haxe.lang.HaxeException
+M java.lang.IllegalArgumentException
+M java.nio.file.FileStore
+M java.security.GeneralSecurityException
+M java.nio.channels.ServerSocketChannel
+M haxe.root.EnumValue
+M org.vertx.java.core.http.WebSocketVersion
+M java.nio.channels.SelectionKey
+M org.vertx.java.core.json.EncodeException
+M haxe.root.Array
+C haxe.root.Array
+C _Array.ArrayIterator
+M java.io.FileNotFoundException
+M java.nio.channels.ClosedChannelException
+M java.util.spi.LocaleNameProvider
+M java.nio.channels.spi.SelectorProvider
+M java.NativeArray
+M java.sun.util.locale.LocaleObjectCache
+M java.util.List
+M org.vertx.java.core.streams.Pump
+M java.nio.file.attribute.FileAttribute
+M java.util.AbstractCollection
+M haxe.root.String
+M java.util.AbstractSet
+M java.net.DatagramPacket
+M org.vertx.java.core.eventbus.EventBus
+M java.nio.FloatBuffer
+M java.security.cert.CertificateEncodingException
+M org.vertx.java.core.net.NetServer
+M java.lang.Number
+M java.lang.Float
+M java.net.ServerSocket
+M java.security.Guard
+M java.lang.NoSuchMethodException
+M javax.net.ssl.SSLSession
+M org.vertx.java.core.http.WebSocketFrame
+M org.vertx.java.core.AsyncResult
+M java.lang.ThreadGroup
+M javax.security.cert.CertificateException
+M java.lang.reflect.AccessibleObject
+M java.nio.channels.ByteChannel
+M java.util.concurrent.ConcurrentMap
+M java.lang.Readable
+M javax.net.ServerSocketFactory
+M java.lang.reflect.InvocationTargetException
+M java.lang.ClassNotFoundException
+M java.net.DatagramSocketImplFactory
+M java.nio.channels.InterruptibleChannel
+M org.vertx.java.core.sockjs.SockJSSocket
+M haxe.Int32
+M javax.net.ssl.SSLParameters
+M java.nio.charset.CodingErrorAction
+M org.vertx.java.core.dns.DnsClient
+M org.vertx.java.core.dns.SrvRecord
+M java.lang.ClassLoader
+M java.io.File
+M java.nio.file.OpenOption
+M java.lang.Void
+M java.util.Random
+M sun.util.resources.OpenListResourceBundle
+M java.lang.reflect.Constructor
+M java.lang.Long
+M java.nio.charset.CoderResult
+M java.net.URISyntaxException
+M java.io.FileDescriptor
+M haxe.io.BytesData
+M java.nio.channels.NetworkChannel
+M org.vertx.java.core.json.JsonArray
+M java.lang.Class
+M java.security.Timestamp
+M java.lang.ref.WeakReference
+M javax.security.cert.Certificate
+M org.vertx.java.core.eventbus.Message
+M java.security.Principal
+M java.nio.channels.MulticastChannel
+M java.lang.Cloneable
+M java.nio.file.attribute.UserPrincipalLookupService
+M org.vertx.java.core.Future
+M javax.net.ssl.SSLServerSocketFactory
+M java.nio.file.Path
+M java.util.Collection
+M io.netty.buffer.AbstractReferenceCountedByteBuf
+M java.math.BigInteger
+M haxe.root.Type
+E haxe.root.ValueType
+C haxe.root.ValueType
+C haxe.root.Type
+M java.security.Provider
+M haxe.ds.HashMap
+M java.security.ProtectionDomain
+M java.nio.file.WatchEvent
+M java.util.SortedMap
+M javax.net.ssl.SSLSessionContext
+M java.lang.StringBuilder
+M java.lang.reflect.Type
+M java.security.CodeSource
+M java.nio.file.AccessMode
+M org.vertx.java.core.logging.impl.LogDelegate
+M org.vertx.java.core.Handler
+M haxe.root.StdTypes
+M java.nio.channels.Selector
+M java.security.InvalidKeyException
+M java.lang.Thread
+M java.net.SocketImpl
+M java.security.spec.AlgorithmParameterSpec
+M org.vertx.java.core.http.HttpServerRequest
+M io.netty.util.ReferenceCounted
+M org.vertx.java.core.json.JsonElement
+M javax.security.cert.X509Certificate
+M java.net.Socket
+M java.security.AlgorithmParameters
+M java.internal.Function
+C haxe.lang.Function
+C haxe.lang.VarArgsBase
+C haxe.lang.VarArgsFunction
+C haxe.lang.Closure
+M javax.net.ssl.SSLPeerUnverifiedException
+M java.nio.channels.spi.AbstractSelector
+M java.security.Key
+M java.util.Iterator
+M java.lang.Comparable
+M org.vertx.java.core.NetworkSupport
+M org.vertx.java.core.http.ServerWebSocket
+M java.security.CryptoPrimitive
+M java.lang.Object
+M java.nio.channels.MembershipKey
+M java.lang.ReflectiveOperationException
+M java.nio.file.attribute.BasicFileAttributes
+M java.net.UnknownHostException
+M java.lang.Iterable
+M java.net.ContentHandler
+M java.net.Proxy
+M java.util.MissingResourceException
+M java.io.PrintWriter
+M haxe.Int64
+M java.net.NetworkInterface
+M java.nio.channels.AsynchronousCloseException
+M io.netty.buffer.SwappedByteBuf
+M haxe.root.Map
+M java.lang.IllegalAccessException
+M java.security.cert.CertPath
+M org.vertx.java.core.json.JsonObject
+M javax.security.cert.CertificateNotYetValidException
+M java.javax.net.ssl.SSLEngineResult
+M org.vertx.java.core.datagram.DatagramSocket
+M java.lang.Math
+M java.net.InetAddress
+M java.net.URLStreamHandler
+M java.security.CodeSigner
+M org.vertx.java.core.file.FileProps
+M java.nio.file.attribute.FileTime
+M haxe.root.Reflect
+C haxe.root.Reflect
+M java.security.NoSuchAlgorithmException
+M java.nio.channels.Channel
+M java.security.NoSuchProviderException
+M java.lang.reflect.GenericDeclaration
+M java.types.Int8
+M org.vertx.java.core.sockjs.SockJSServer
+M java.io.Closeable
+M java.nio.channels.FileLock
+M java.io.Writer
+M org.vertx.java.core.logging.Logger
+M javax.net.ssl.SSLContext
+M java.net.URI
+M java.nio.MappedByteBuffer
+M haxe.ds.Vector
+C haxe.ds._Vector.Vector_Impl_
+M java.io.Serializable
+M java.net.SocketAddress
+M java.sun.util.locale.BaseLocale
+M java.nio.channels.Pipe
+M haxe.root.Class
+M java.io.SyncFailedException
+M java.security.PublicKey
+M java.nio.channels.FileChannel
+M org.vertx.java.core.http.HttpServerFileUpload
+M haxe.java.Lib
+C haxe.java.Lib
+M java.lang.SecurityException
+M java.io.Reader
+M java.security.AlgorithmConstraints
+M haxe.Constraints
+M java.Boot
+M java.lang.Runnable
+M java.security.SignatureException
+M java.nio.channels.AsynchronousChannel
+M java.util.Date
+M javax.net.ssl.SSLSocketFactory
+M haxe.ds.ObjectMap
+M org.vertx.java.core.file.AsyncFile
+M java.nio.ByteBuffer
+M java.nio.file.FileSystem
+M java.lang.reflect.AnnotatedElement
+M java.net.SocketOptions
+M java.lang.StackTraceElement
+M java.lang.reflect.TypeVariable
+M java.lang.Boolean
+M java.nio.file.CopyOption
+M java.util.Properties
+M java.lang.reflect.Member
+M java.lang.RuntimeException
+M org.vertx.java.core.buffer.Buffer
+M java.nio.channels.spi.AbstractSelectableChannel
+M java.net.DatagramSocketImpl
+M io.netty.buffer.ByteBuf
+M io.netty.buffer.ByteBufAllocator
+M java.nio.file.WatchKey
+M java.util.concurrent.TimeUnit
+M haxe.ds.StringMap
+M java.lang.Throwable
+M java.lang.NumberFormatException
+M javax.security.cert.CertificateExpiredException
+M java.net.InetSocketAddress
+M java.nio.channels.CompletionHandler
+M haxe.ds.WeakMap
+M java.net.DatagramSocket
+M java.nio.channels.spi.AbstractInterruptibleChannel
+M java.lang.CharSequence
+M java.net.Inet6Address
+M org.vertx.java.core.net.NetSocket
+M java.lang.annotation.Annotation
+M org.vertx.java.core.http.HttpServerResponse
+M java.net.ProtocolFamily
+M org.vertx.java.platform.Verticle
+M java.nio.channels.spi.AbstractSelectionKey
+M java.nio.channels.ScatteringByteChannel
+M java.security.AlgorithmParametersSpi
+M java.util.Comparator
+M java.util.ListIterator
+M java.lang.Double
+M java.net.SocketImplFactory
+M org.vertx.java.core.http.HttpClient
+M java.internal.HxObject
+C haxe.lang.IHxObject
+C haxe.lang.HxObject
+C haxe.lang.DynamicObject
+C haxe.lang.Enum
+C haxe.lang.ParamEnum
+M java.internal.Runtime
+C haxe.lang.Runtime
+E haxe.lang.EmptyObject
+M java.lang.LinkageError
+M java.nio.charset.CharsetDecoder
+M java.nio.file.LinkOption
+M java.nio.channels.DatagramChannel
+M java.nio.charset.CharacterCodingException
+M java.nio.channels.SocketChannel
+M java.internal.StringExt
+C haxe.lang.StringExt
+C haxe.lang.StringRefl
+M org.vertx.java.core.ServerSSLSupport
+M haxe.EnumTools
+M java.nio.file.spi.FileSystemProvider
+M javax.net.SocketFactory
+M java.lang.ref.ReferenceQueue
+M java.lang.SecurityManager
+M java.nio.channels.WritableByteChannel
+M java.nio.charset.CharsetEncoder
+M java.util.Hashtable
+M java.security.PermissionCollection
+M org.vertx.java.core.streams.ExceptionSupport
+M java.lang.ThreadLocal
+M java.net.URLStreamHandlerFactory
+M java.net.URL
+M java.net.ContentHandlerFactory
+M java.lang.reflect.Method
+M io.netty.buffer.AbstractByteBuf
+M java.nio.CharBuffer
+M haxe.lang.FieldLookup
+C haxe.lang.FieldLookup
+M java.internal.Iterator
+C haxe.lang.Iterator
+C haxe.lang.Iterable
+M java.nio.ShortBuffer
+M javax.security.cert.CertificateEncodingException
+M java.io.ObjectStreamException
+M java.security.Permission
+M java.net.InterfaceAddress
+M java.StdTypes
+M java.security.SecureRandom
+M java.lang.Package
+M java.lang.InstantiationException
+M java.util.ResourceBundle
+M java.types.Char16
+M java.io.OutputStream
+M java.io.PrintStream
+M java.util.Enumeration
+M javax.net.ssl.SSLContextSpi
+M java.security.cert.CertificateException
+M java.lang.Math
+M java.nio.file.Watchable
+M java.lang.ref.SoftReference
+M java.util.spi.LocaleServiceProvider
+M java.nio.DoubleBuffer
+M java.util.InvalidPropertiesFormatException
+M org.vertx.java.core.http.HttpVersion
+M org.vertx.java.core.dns.MxRecord
+M java.lang.Short
+M org.vertx.java.core.MultiMap
+M hxAnonCls.AnonCls
+C hxAnonCls.AnonCls
+M org.vertx.java.core.shareddata.SharedData
+M java.types.Int16
+M java.lang.StringBuffer
+M org.vertx.java.core.ServerTCPSupport
+M java.security.spec.InvalidParameterSpecException
+M java.nio.file.attribute.UserPrincipal
+M org.vertx.java.core.streams.ReadStream
+M java.security.KeyException
+M org.vertx.java.core.Context
+M java.lang.Exception
+M haxe.root.Main
+C haxe.root.Main
+C haxe.root.Main_Handler_516
+M java.lang.System
+M java.nio.channels.AsynchronousFileChannel
+M java.security.KeyManagementException
+M java.lang.AbstractStringBuilder
+M java.nio.IntBuffer
+M java.lang.InterruptedException
+M org.vertx.java.core.streams.ReadSupport
+M io.netty.buffer.ByteBufProcessor
+M java.nio.Buffer
+M org.vertx.java.core.http.HttpServer
+M java.util.concurrent.Callable
+M java.util.concurrent.Future
+M java.nio.channels.GatheringByteChannel
+M java.lang.NoSuchFieldException
+M org.vertx.java.core.http.WebSocketBase
+M java.nio.file.attribute.FileStoreAttributeView
+M org.vertx.java.core.net.NetClient
+M java.io.Console
+M java.util.Dictionary
+M java.util.concurrent.Executor
+M org.vertx.java.core.TCPSupport
+M org.vertx.java.core.shareddata.ConcurrentSharedMap
+M haxe.root.Enum
+M org.vertx.java.core.http.HttpClientResponse
+M java.nio.file.PathMatcher
+M java.nio.file.WatchService
+M org.vertx.java.core.sockjs.EventBusBridgeHook
+M org.vertx.java.core.file.FileSystemProps
+M java.lang.Appendable
+M org.vertx.java.platform.Container
+M java.nio.file.attribute.GroupPrincipal
+M java.io.FilterOutputStream
+M org.vertx.java.core.http.HttpClientRequest
+M java.lang.AutoCloseable
+M java.nio.file.attribute.AttributeView
+M java.io.FileFilter
+M java.util.Locale
+M java.util.Map
+M javax.net.ssl.SSLEngine
+M java.security.SecureRandomSpi
+M io.netty.buffer.CompositeByteBuf
+M java.lang.Byte
+M java.lang.Integer
+M java.io.UnsupportedEncodingException
+M java.net.SocketException
+M javax.net.ssl.SSLException
+M java.io.FilenameFilter
+M java.lang.Character
+M java.nio.ByteOrder
+M java.security.cert.Certificate
+M java.net.Inet4Address
+M java.nio.channels.ReadableByteChannel
+M org.vertx.java.core.streams.WriteStream
+M java.nio.file.attribute.FileAttributeView
+M java.lang.reflect.Field
+M java.io.Flushable
+M java.lang.ClassFormatError
+M org.vertx.java.core.datagram.InternetProtocolFamily
+M org.vertx.java.core.SSLSupport
+M javax.net.ssl.KeyManager
+M java.io.InputStream
+M java.nio.channels.SeekableByteChannel
+M java.net.MalformedURLException
+M haxe.root.StringBuf
+C haxe.root.StringBuf
+end modules
+begin main
+haxe.root.Main
+end main
+begin resources
+end resources
+begin libs
+lib/hazelcast-3.2.3.jar
+lib/jackson-core-2.2.2.jar
+lib/netty-all-4.0.21.Final.jar
+lib/vertx-hazelcast-2.1.5.jar
+lib/jackson-annotations-2.2.2.jar
+lib/jackson-databind-2.2.2.jar
+lib/vertx-core-2.1.5.jar
+lib/vertx-platform-2.1.5.jar
+end libs

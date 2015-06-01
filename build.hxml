@@ -1,0 +1,11 @@
+-main Main
+-java build
+-java-lib lib/hazelcast-3.2.3.jar
+-java-lib lib/jackson-core-2.2.2.jar
+-java-lib lib/netty-all-4.0.21.Final.jar
+-java-lib lib/vertx-hazelcast-2.1.5.jar
+-java-lib lib/jackson-annotations-2.2.2.jar
+-java-lib lib/jackson-databind-2.2.2.jar
+-java-lib lib/vertx-core-2.1.5.jar
+-java-lib lib/vertx-platform-2.1.5.jar
+-lib hxAnonCls
